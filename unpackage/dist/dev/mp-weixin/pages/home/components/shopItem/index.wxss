@@ -1,0 +1,7 @@
+
+.imgsShop{
+	width: 100%;
+	height: 280rpx;
+	border-radius: 10rpx;
+}
+

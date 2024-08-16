@@ -1,0 +1,10 @@
+
+.border-bottom{
+	background: linear-gradient( 90deg, #FB6E19 0%, #EA0306 100%);
+	width: 96rpx;
+	height: 8rpx;
+	border-radius: 10rpx;
+	margin-top: 7rpx;
+}
+
+

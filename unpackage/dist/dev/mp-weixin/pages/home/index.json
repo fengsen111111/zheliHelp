@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "header-view": "/components/headerView/index",
+    "tag-card": "/pages/home/components/tagCard/index",
+    "shop-item": "/pages/home/components/shopItem/index"
+  }
+}
