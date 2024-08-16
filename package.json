@@ -1,0 +1,19 @@
+{
+    "id": "imgsBanner-tag",
+    "name": "图片轮播，商品详情图",
+    "version": "2.0.1",
+    "description": "图片轮播，商品详情图",
+    "keywords": [
+        "图片轮播",
+        "轮播",
+        "详情图",
+        "图片",
+        "图片列表"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

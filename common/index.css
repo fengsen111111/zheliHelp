@@ -121,6 +121,9 @@
 .borderFA6C2F{
 	border: 1rpx solid #FA6C2F;
 }
+.borderFA6C2F-8{
+	border: 8rpx solid #FA6C2F;
+}
 .bg36A9FC{
 	background-color: #36A9FC;
 }
@@ -196,6 +199,9 @@
 .line30{
 	line-height: 30rpx;
 }
+.delText{
+	text-decoration: line-through
+}
 .w320{
 	width: 320rpx;
 }
@@ -204,6 +210,9 @@
 }
 .text30{
 	font-size: 30rpx;
+}
+.pb14{
+	padding-bottom: 14rpx;
 }
 .px30{
 	padding-left: 30rpx;
@@ -214,6 +223,9 @@
 }
 .mb30{
 	margin-bottom: 30rpx;
+}
+.h328{
+	height: 328rpx;
 }
 .text28{
 	font-size: 28rpx;
@@ -298,4 +310,63 @@
 }
 .mb20{
 	margin-bottom: 20rpx;
+}
+.radius8{
+	border-radius: 8rpx;
+}
+.w120{
+	width: 120rpx;
+}
+.w50{
+	width: 50rpx;
+}
+.w28{
+	width: 28rpx;
+}
+.h28{
+	height: 28rpx;
+}
+.w30{
+	width: 30rpx;
+}
+.h30{
+	height: 30rpx;
+}
+.text34{
+	font-size: 34rpx;
+}
+.px20{
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+}
+.text36{
+	font-size: 36rpx;
+}
+.py20{
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+}
+.mt50{
+	margin-top: 50rpx;
+}
+.h600{
+	height: 600rpx;
+}
+.bg-black{
+	background-color: black;
+}
+.h160{
+	height: 160rpx;
+}
+.absolute{
+	position: absolute;
+}
+.opacity6{
+	opacity: 0.6;
+}
+.h120{
+	height: 120rpx;
+}
+.mr20{
+	margin-right: 20rpx;
 }

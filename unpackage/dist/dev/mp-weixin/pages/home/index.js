@@ -143,24 +143,24 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var headerView = function headerView() {
   __webpack_require__.e(/*! require.ensure | components/headerView/index */ "components/headerView/index").then((function () {
-    return resolve(__webpack_require__(/*! @/components/headerView/index.vue */ 73));
+    return resolve(__webpack_require__(/*! @/components/headerView/index.vue */ 75));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var tagCard = function tagCard() {
   Promise.all(/*! require.ensure | pages/home/components/tagCard/index */[__webpack_require__.e("common/vendor"), __webpack_require__.e("pages/home/components/tagCard/index")]).then((function () {
-    return resolve(__webpack_require__(/*! ./components/tagCard/index.vue */ 80));
+    return resolve(__webpack_require__(/*! ./components/tagCard/index.vue */ 82));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
-var shopItem = function shopItem() {
-  __webpack_require__.e(/*! require.ensure | pages/home/components/shopItem/index */ "pages/home/components/shopItem/index").then((function () {
-    return resolve(__webpack_require__(/*! ./components/shopItem/index.vue */ 110));
+var homeBottom = function homeBottom() {
+  __webpack_require__.e(/*! require.ensure | pages/home/components/homeBottom/index */ "pages/home/components/homeBottom/index").then((function () {
+    return resolve(__webpack_require__(/*! ./components/homeBottom/index.vue */ 114));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default = {
   components: {
     headerView: headerView,
     tagCard: tagCard,
-    shopItem: shopItem
+    homeBottom: homeBottom
   },
   data: function data() {
     return {};

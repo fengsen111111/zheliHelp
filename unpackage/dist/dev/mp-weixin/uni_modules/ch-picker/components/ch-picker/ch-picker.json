@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "ch-picker-view": "/uni_modules/ch-picker/components/ch-picker-view/ch-picker-view"
+  },
+  "component": true
+}

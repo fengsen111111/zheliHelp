@@ -19,29 +19,7 @@
 			  <image src="@/static/home/leftImg.png"  class="imgLeftRight" mode=""></image>
 		  </view>
 		  <!-- tabs -->
-		  <view class="mt20">
-		  	<view class="flex col999999">
-		  		<view class="col-black text32 font-bold">
-					推荐商品
-					<view class="checkItem mx-auto"></view>
-					</view>
-		  		<view class="ml100">团购</view>
-		  		<view class="ml100">组合套餐</view>
-		  	</view>
-			<!-- 推荐商品 -->
-			<view class="">
-				<view class="mt10 flex text24" styule="">
-					<view class="tags" :class="item == 1?'col-black':'col999999'" v-for="item in [1,2,3,4,5]" :key="item">热门</view>
-				</view>
-				<view class=" grid grid-cols-2">
-					 <shopItem v-for="item in [1,2,3,4]" :key="item"/>
-				</view>
-			</view>
-			<!-- 团购 -->
-			<view class=""></view>
-			<!-- 组合套餐 -->
-			<view class=""></view>
-		  </view>
+		  <homeBottom />
 		 
 	    </view>
 	
@@ -51,10 +29,10 @@
 <script>
 	import headerView from '@/components/headerView/index.vue'
 	import tagCard from './components/tagCard/index.vue'
-	import shopItem from './components/shopItem/index.vue'
+	import homeBottom from './components/homeBottom/index.vue'
 	export default {
 		components:{
-			headerView,tagCard,shopItem
+			headerView,tagCard,homeBottom
 			},
 		data() {
 			return {
@@ -68,11 +46,6 @@
 </script>
 
 <style>
-	.tags{
-		width: 300px;
-		text-align: center;
-
-	}
 	.imgLeftRight{
 		width: 49%;
 		height: 128rpx;

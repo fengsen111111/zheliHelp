@@ -4,7 +4,8 @@
     "pages/shop/index",
     "pages/gift/index",
     "pages/shopping/index",
-    "pages/user/index"
+    "pages/user/index",
+    "pages/childPages/buyDetails/index"
   ],
   "subPackages": [],
   "window": {

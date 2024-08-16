@@ -20,11 +20,11 @@
 						<view class="text24 font-bold">
 							面包糠1kg大包装面包屑炸鸡粉炸鸡裹 鸡排面包康
 						</view>
-						<view class="bgF4F6F5 text20 p10 text-center flex mt30 w180">
+						<view class="bgF4F6F5 text20 p10 text-center flex mt10 w180">
 							<text>袋装(500g)*2</text>
 							<uni-icons type="down" size="16" class="ml20" color="#FA6C2F"></uni-icons>
 						</view>
-						<view class="mt30 flex justify-between items-center text28 col-black">
+						<view class=" flex justify-between items-center text28 mt10 col-black">
 							<view class="flex">
 								<view class="">单价</view>
 								<view class="colFF0000">￥6666</view>

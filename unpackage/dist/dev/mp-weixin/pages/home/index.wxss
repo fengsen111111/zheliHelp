@@ -1,8 +1,4 @@
 
-.tags{
-	width: 300px;
-	text-align: center;
-}
 .imgLeftRight{
 	width: 49%;
 	height: 128rpx;
