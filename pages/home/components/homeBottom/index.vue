@@ -44,7 +44,9 @@
 			<!-- 组合套餐 -->
 			<view v-else-if="checkIndex==3">
 				<view class="grid grid-cols-2">
-					<shopItem v-for="item in [1,2,3,4]" :key="item" />
+					<view class="" @click="handleCombo" v-for="item in [1,2,3,4]" :key="item" >
+						<shopItem />
+					</view>
 				</view>
 			</view>
 		</view>
@@ -55,7 +57,7 @@
 		</view>
 		<!-- 全部筛选 -->
 		<view>
-			<uni-popup ref="popup" background-color="#fff">
+			<uni-popup ref="popup" background-color="#fff"  borderRadius="20rpx 20rpx 0px 0px">
 				<view class="radius20 bg-white p30" style="height: 30vh;">
 					<view class="flex justify-between">
 						<view class="w28"></view>
@@ -146,7 +148,13 @@
 				uni.navigateTo({
 					url: '/pages/childPages/buyDetails/index'
 				})
-			}
+			},
+			// 组合详情
+			handleCombo(){
+				uni.navigateTo({
+					url: '/pages/childPages/comboDetails/index'
+				})
+			},
 		}
 	}
 </script>

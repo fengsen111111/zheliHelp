@@ -22,6 +22,50 @@
 		{
 			"path": "pages/childPages/buyDetails/index",
 			"style": {}
+		},
+		{
+			"path": "pages/childPages/comboDetails/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/submitOrder/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/pickUpPoint/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/vicinityDak/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/gatherRegistered/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/contentView/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/shopDetails/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/shopSubmitOrder/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/shoppingSubmitOrder/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/giftDetails/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/gifrSubmitOder/index",
+			"style": {}
 		}
 	],
 	"globalStyle": {

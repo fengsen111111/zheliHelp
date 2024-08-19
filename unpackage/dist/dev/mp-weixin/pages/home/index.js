@@ -135,7 +135,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+/* WEBPACK VAR INJECTION */(function(uni) {
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -143,17 +143,17 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var headerView = function headerView() {
   __webpack_require__.e(/*! require.ensure | components/headerView/index */ "components/headerView/index").then((function () {
-    return resolve(__webpack_require__(/*! @/components/headerView/index.vue */ 75));
+    return resolve(__webpack_require__(/*! @/components/headerView/index.vue */ 135));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var tagCard = function tagCard() {
   Promise.all(/*! require.ensure | pages/home/components/tagCard/index */[__webpack_require__.e("common/vendor"), __webpack_require__.e("pages/home/components/tagCard/index")]).then((function () {
-    return resolve(__webpack_require__(/*! ./components/tagCard/index.vue */ 82));
+    return resolve(__webpack_require__(/*! ./components/tagCard/index.vue */ 142));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var homeBottom = function homeBottom() {
   __webpack_require__.e(/*! require.ensure | pages/home/components/homeBottom/index */ "pages/home/components/homeBottom/index").then((function () {
-    return resolve(__webpack_require__(/*! ./components/homeBottom/index.vue */ 114));
+    return resolve(__webpack_require__(/*! ./components/homeBottom/index.vue */ 182));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default = {
@@ -165,9 +165,21 @@ var _default = {
   data: function data() {
     return {};
   },
-  methods: {}
+  methods: {
+    handeVicinty: function handeVicinty() {
+      uni.navigateTo({
+        url: '/pages/childPages/vicinityDak/index'
+      });
+    },
+    handeGather: function handeGather() {
+      uni.navigateTo({
+        url: '/pages/childPages/gatherRegistered/index'
+      });
+    }
+  }
 };
 exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
 

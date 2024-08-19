@@ -16,14 +16,27 @@
 			</view>
 			<view class="w-3-4 radius20 bg-white p30 text20">
 				<view class="flex justify-between">
-					<view class="flex">
+					<view class="flex items-center">
 						<view class="">产地</view>
-						<view class="bgF4F6F5 w140 text-center ml10">全部 ﹀</view>
+						<view class="bgF4F6F5 flex items-center w140 text-center ml10">
+							<view class="mx-auto">全部</view> 
+							<uni-icons type="down" size="20" class="colFA6C2F"></uni-icons>
+						</view>
 					</view>
-					<view class="">销量</view>
-					<view class="">价格</view>
+					<view class="flex" @click="handleSold()">
+						<view class="mr10">销量</view>
+					    <image src="@/static/shop/search.png" class="w20 h28" v-if="search.sold==1" mode=""></image>
+					    <image src="@/static/shop/searchUp.png" class="w20 h28" v-else-if="search.sold==2"  mode=""></image>
+					    <image src="@/static/shop/searchDown.png" class="w20 h28" v-else-if="search.sold==3"  mode=""></image>
+					</view>
+					<view class="flex" @click="handlePrice()">
+						<view class="mr10">价格</view>
+					    <image src="@/static/shop/search.png" class="w20 h28" v-if="search.price==1" mode=""></image>
+					    <image src="@/static/shop/searchUp.png" class="w20 h28" v-else-if="search.price==2"  mode=""></image>
+					    <image src="@/static/shop/searchDown.png" class="w20 h28" v-else-if="search.price==3"  mode=""></image>
+					</view>
 				</view>
-				<view class="mt30 flex " v-for="item in [1,2,3,4,5,6]" :key="item">
+				<view class="mt30 flex " v-for="item in [1,2,3,4,5,6]" :key="item" @click="handleDetails">
 					<image src="https://imgos.cn/2024/08/16/66bea893084a3.png" class="img200" mode=""></image>
 					<view class="ml20 w290">
 						<view class="text24 font-bold ">面包糠1kg大包装面包屑炸鸡粉炸鸡裹 鸡排面包康</view>
@@ -59,13 +72,41 @@
 <script>
 	export default {
 		data() {
-			return {}
+			return {
+				search:{
+					sold:1,
+					price:1
+				}
+			}
 		},
 		methods: {
+			handleDetails(){
+				uni.navigateTo({
+					url: '/pages/childPages/shopDetails/index'
+				})
+			},
 			back() {
 				console.log('返回')
 				uni.navigateBack()
 			},
+			handleSold(){
+				if(this.search.sold==1){
+					this.search.sold = 2
+				}else if(this.search.sold==2){
+					this.search.sold = 3
+				}else if(this.search.sold==3){
+					this.search.sold = 2
+				}
+			},
+			handlePrice(){
+				if(this.search.price==1){
+					this.search.price = 2
+				}else if(this.search.price==2){
+					this.search.price = 3
+				}else if(this.search.price==3){
+					this.search.price = 2
+				}
+			}
 		}
 	}
 </script>

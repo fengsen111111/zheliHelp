@@ -5,7 +5,18 @@
     "pages/gift/index",
     "pages/shopping/index",
     "pages/user/index",
-    "pages/childPages/buyDetails/index"
+    "pages/childPages/buyDetails/index",
+    "pages/childPages/comboDetails/index",
+    "pages/childPages/submitOrder/index",
+    "pages/childPages/pickUpPoint/index",
+    "pages/childPages/vicinityDak/index",
+    "pages/childPages/gatherRegistered/index",
+    "pages/childPages/contentView/index",
+    "pages/childPages/shopDetails/index",
+    "pages/childPages/shopSubmitOrder/index",
+    "pages/childPages/shoppingSubmitOrder/index",
+    "pages/childPages/giftDetails/index",
+    "pages/childPages/gifrSubmitOder/index"
   ],
   "subPackages": [],
   "window": {

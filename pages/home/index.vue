@@ -15,8 +15,8 @@
 		  </view>
 		  <!-- left right -->
 		  <view class="mt20 flex justify-between">
-			  <image src="@/static/home/leftImg.png" class="imgLeftRight" mode=""></image>
-			  <image src="@/static/home/leftImg.png"  class="imgLeftRight" mode=""></image>
+			  <image src="https://img.picui.cn/free/2024/08/19/66c2dd65a8538.png"  class="imgLeftRight" mode="" @click="handeVicinty"></image>
+			  <image src="https://img.picui.cn/free/2024/08/19/66c2dd6580d5d.png" class="imgLeftRight" mode="" @click="handeGather"></image>
 		  </view>
 		  <!-- tabs -->
 		  <homeBottom />
@@ -40,7 +40,16 @@
 			}
 		},
 		methods: {
-
+			handeVicinty(){
+				uni.navigateTo({
+					url:'/pages/childPages/vicinityDak/index'
+				})
+			},
+			handeGather(){
+				uni.navigateTo({
+					url:'/pages/childPages/gatherRegistered/index'
+				})
+			}
 		}
 	}
 </script>

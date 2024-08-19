@@ -99,7 +99,10 @@ var components
 try {
   components = {
     uniNavBar: function () {
-      return __webpack_require__.e(/*! import() | uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar */ "uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar.vue */ 121))
+      return __webpack_require__.e(/*! import() | uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar */ "uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar.vue */ 189))
+    },
+    uniIcons: function () {
+      return Promise.all(/*! import() | uni_modules/uni-icons/components/uni-icons/uni-icons */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uni-icons/components/uni-icons/uni-icons")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uni-icons/components/uni-icons/uni-icons.vue */ 196))
     },
   }
 } catch (e) {
@@ -220,14 +223,55 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   data: function data() {
-    return {};
+    return {
+      search: {
+        sold: 1,
+        price: 1
+      }
+    };
   },
   methods: {
+    handleDetails: function handleDetails() {
+      uni.navigateTo({
+        url: '/pages/childPages/shopDetails/index'
+      });
+    },
     back: function back() {
       console.log('返回');
       uni.navigateBack();
+    },
+    handleSold: function handleSold() {
+      if (this.search.sold == 1) {
+        this.search.sold = 2;
+      } else if (this.search.sold == 2) {
+        this.search.sold = 3;
+      } else if (this.search.sold == 3) {
+        this.search.sold = 2;
+      }
+    },
+    handlePrice: function handlePrice() {
+      if (this.search.price == 1) {
+        this.search.price = 2;
+      } else if (this.search.price == 2) {
+        this.search.price = 3;
+      } else if (this.search.price == 3) {
+        this.search.price = 2;
+      }
     }
   }
 };

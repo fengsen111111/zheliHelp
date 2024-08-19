@@ -62,7 +62,7 @@
 							<view class="">8888</view>
 						</view>
 					</view>
-					<view class="ml30 bgFA6C2F w200 py22 text-center col-white text28 radius10">
+					<view class="ml30 bgFA6C2F w200 py22 text-center col-white text28 radius10" @click="handleSubit">
 						提交
 					</view>
 				</view>
@@ -79,7 +79,11 @@
 			}
 		},
 		methods: {
-
+			handleSubit(){
+				uni.navigateTo({
+					url:'/pages/childPages/shoppingSubmitOrder/index'
+				})
+			}
 		}
 	}
 </script>

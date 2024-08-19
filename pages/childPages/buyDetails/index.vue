@@ -46,6 +46,19 @@
 		</view>
 		<!-- 留白 -->
 		<view class="h160"></view>
+		<!-- 固定 -->
+		<view class="">
+			<view class="flex px30 py14 items-center justify-between fixed bottom0 bg-white">
+				<view class="flex">
+					<view class=""><image src="@/static/home/collect.png" mode="" class="w60 h60"></image></view>
+					<view class="ml60"><image src="@/static/home/server.png" mode="" class="w60 h60"></image></view>
+				</view>
+				<view class="flex ml150">
+					<view class="borderFA6C2F colFA6C2F radius12 bg-white text-center p20">加入购物车</view>
+					<view class="bgFA6C2F col-white radius12 text-center p20 ml20" @click="handleSubmit">立即购买</view>
+				</view>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -77,6 +90,15 @@
 			handleIndex(index){
 				console.log('12313123',index)
 				this.current = index
+			},
+			back() {
+				console.log('返回')
+				uni.navigateBack()
+			},
+			handleSubmit(){
+				uni.navigateTo({
+					url: '/pages/childPages/submitOrder/index'
+				})
 			}
 		}
 	}
