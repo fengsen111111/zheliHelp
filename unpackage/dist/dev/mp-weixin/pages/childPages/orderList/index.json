@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+    "ch-picker": "/uni_modules/ch-picker/components/ch-picker/ch-picker"
+  }
+}

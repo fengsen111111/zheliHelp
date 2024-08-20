@@ -12,12 +12,12 @@
 						<view class="text20">123****1234</view>
 					</view>
 				</view>
-				<view class="borderDCC896 colDCC896 text24 radius4 px10 py5 ">
+				<view class="borderDCC896 colDCC896 text24 radius4 px10 py5 " @click="handleTo('/pages/childPages/userRechange/index')">
 					会员充值
 				</view>
 			</view>
 			<!--  -->
-			<view class="bg-white grid grid-cols-4 text-center text20 p30 radius-bottom4">
+			<view class="bg-white grid grid-cols-4 text-center text20 p30 radius-bottom4" @click="handleOrderList">
 				<view class="">
 					<image src="@/static/user/status1.png" class="img50" mode=""></image>
 					<view class="mt15">待付款</view>
@@ -37,54 +37,54 @@
 			</view>
 			<!--  -->
 			<view class="bg-white radius12 grid grid-cols-4 mt20 text-center text20 p30 radius-bottom4">
-				<view class="mb30">
+				<view class="mb30" @click="handleTo('/pages/childPages/myCard/index')">
 					<image src="@/static/user/icon1.png" class="img50" mode=""></image>
 					<view class="mt15">我的卡包</view>
 				</view>
-				<view class="mb30">
+				<view class="mb30" @click="handleTo('/pages/childPages/loveExchange/index')">
 					<image src="@/static/user/icon2.png" class="img50" mode=""></image>
 					<view class="mt15">爱心兑换</view>
 				</view>
-				<view class="mb30">
+				<view class="mb30" @click="handleTo('/pages/childPages/myTeam/index')">
 					<image src="@/static/user/icon3.png" class="img50" mode=""></image>
 					<view class="mt15">我的团队</view>
 				</view>
-				<view class="mb30">
+				<view class="mb30" @click="handleTo('/pages/childPages/colonelFiled/index')">
 					<image src="@/static/user/icon4.png" class="img50" mode=""></image>
 					<view class="mt15">团长管理</view>
 				</view>
-				<view class="">
+				<view class="" @click="handleTo('/pages/childPages/address/index')">
 					<image src="@/static/user/icon5.png" class="img50" mode=""></image>
 					<view class="mt15">地址管理</view>
 				</view>
-				<view class="">
+				<view class="" @click="handleTo('/pages/childPages/giftCardRecord/index')">
 					<image src="@/static/user/icon6.png" class="img50" mode=""></image>
 					<view class="mt15">礼品卡记录</view>
 				</view>
-				<view class="">
+				<view class="" @click="handleTo('/pages/childPages/merchantSettled/index')">
 					<image src="@/static/user/icon7.png" class="img50" mode=""></image>
 					<view class="mt15">商家入驻</view>
 				</view>
-				<view class="">
+				<view class="" @click="handleTo('/pages/childPages/merchantSettledIn/index')">
 					<image src="@/static/user/icon8.png" class="img50" mode=""></image>
 					<view class="mt15">厂家入驻</view>
 				</view>
 			</view>
 			<!--  -->
 			<view class="mt30">
-				<view class="card mb20 px30 py14 flex justify-between text24">
+				<view @click="handleTo('/pages/childPages/giftCardOpen/index')" class="card mb20 px30 py14 flex justify-between text24">
 					<view class="">礼品卡启用</view>
 					<uni-icons type="right" size="20" color="#FA6C2F"></uni-icons>
 				</view>
-				<view class="card mb20 px30 py14 flex justify-between text24">
+				<view @click="handleTo('/pages/childPages/verificationRecord/index')" class="card mb20 px30 py14 flex justify-between text24">
 					<view class="">爱心核销</view>
 					<uni-icons type="right" size="20" color="#FA6C2F"></uni-icons>
 				</view>
-				<view class="card mb20 px30 py14 flex justify-between text24">
+				<view @click="handleTo('/pages/childPages/verificationRecordTwo/index')" class="card mb20 px30 py14 flex justify-between text24">
 					<view class="">超市/驿站核销</view>
 					<uni-icons type="right" size="20" color="#FA6C2F"></uni-icons>
 				</view>
-				<view class="card mb20 px30 py14 flex justify-between text24">
+				<view @click="handleTo('/pages/childPages/feedback/index')" class="card mb20 px30 py14 flex justify-between text24">
 					<view class="">意见反馈</view>
 					<uni-icons type="right" size="20" color="#FA6C2F"></uni-icons>
 				</view>
@@ -100,7 +100,16 @@
 			}
 		},
 		methods: {
-
+			handleOrderList(){
+				uni.navigateTo({
+					url:'/pages/childPages/orderList/index'
+				})
+			},
+			handleTo(url){
+				uni.navigateTo({
+					url: url
+				})
+			}
 		}
 	}
 </script>

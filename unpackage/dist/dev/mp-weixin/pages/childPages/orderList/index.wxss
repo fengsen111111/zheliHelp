@@ -1,0 +1,8 @@
+
+.checkItem {
+	width: 96rpx;
+	height: 8rpx;
+	background: linear-gradient(90deg, #FB6E19 0%, #EA0306 100%);
+	border-radius: 10rpx;
+}
+

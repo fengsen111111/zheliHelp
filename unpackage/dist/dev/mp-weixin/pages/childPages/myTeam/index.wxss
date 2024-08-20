@@ -1,0 +1,13 @@
+
+.headerUser{
+	
+	background-size: 100% 100%;
+	height: 100rpx;
+	padding:20rpx;
+}
+.img60{
+	width: 60rpx;
+	height: 60rpx;
+}
+
+

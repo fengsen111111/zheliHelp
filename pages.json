@@ -66,6 +66,98 @@
 		{
 			"path": "pages/childPages/gifrSubmitOder/index",
 			"style": {}
+		},
+		{
+			"path": "pages/childPages/orderList/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/userRechange/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/myCard/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/cardDetails/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/feedback/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/merchantSettled/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/merchantSettledIn/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/loveExchange/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/glory/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/authentication/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/myTeam/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/payouts/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/teamList/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/colonel/index",
+			"style": {}
+		},
+		{
+			"path": "pages/childPages/colonelFiled/index",
+			"style": {}
+		},
+		{
+			"path":"pages/childPages/withdraw/index",
+			"style": {}
+		},
+		{
+			"path":"pages/childPages/verificationRecord/index",
+			"style": {}
+		},
+		{
+			"path":"pages/childPages/verificationRecordTwo/index",
+			"style": {}
+		},
+		{
+			"path":"pages/childPages/verificationNumber/index",
+			"style": {}
+		},
+		{
+			"path":"pages/childPages/address/index",
+			"style": {}
+		},
+		{
+			"path":"pages/childPages/addressAdd/index",
+			"style": {}
+		},
+		{
+			"path":"pages/childPages/giftCardOpen/index",
+			"style": {}
+		},
+		{
+			"path":"pages/childPages/giftCardRecord/index",
+			"style": {}
 		}
 	],
 	"globalStyle": {
