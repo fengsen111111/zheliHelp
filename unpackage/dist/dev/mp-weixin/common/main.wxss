@@ -70,6 +70,21 @@
 .p30{
 	padding: 30rpx;
 }
+.p5{
+	padding: 5rpx;
+}
+.w15{
+	width: 15rpx;
+}
+input{
+	font-size: 24rpx !important;
+}
+textarea{
+	font-size: 24rpx !important;
+}
+.h20{
+	height: 20rpx;
+}
 .w-full{
 	width: 100%;
 }
@@ -108,6 +123,9 @@
 }
 .text20{
 	font-size: 20rpx;
+}
+.text26{
+	font-size: 26rpx;
 }
 .col666666{
 	color: #666666;

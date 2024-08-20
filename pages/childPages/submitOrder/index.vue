@@ -117,7 +117,7 @@
 				</view>
 			</view>
 			<view class="">
-				<view class="bgF4F6F5 text28 items-center flex ml30">
+				<view class="bgF4F6F5 radius50 text28 items-center flex ml30">
 					<image src="@/static/shopping/dowm.png" class="img50" mode=""></image>
 					<view class="px8 py5">
 						9999

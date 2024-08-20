@@ -9,7 +9,7 @@
 					<image src="@/static/user/user.png" class="img88" mode=""></image>
 					<view class="ml20 col-white">
 						<view class="text28 font-bold">默认昵称</view>
-						<view class="text20">123****1234</view>
+						<view class="text24">123****1234</view>
 					</view>
 				</view>
 				<view class="borderDCC896 colDCC896 text24 radius4 px10 py5 " @click="handleTo('/pages/childPages/userRechange/index')">
@@ -17,7 +17,7 @@
 				</view>
 			</view>
 			<!--  -->
-			<view class="bg-white grid grid-cols-4 text-center text20 p30 radius-bottom4" @click="handleOrderList">
+			<view class="bg-white grid grid-cols-4 text-center text24 p30 radius-bottom4" @click="handleOrderList">
 				<view class="">
 					<image src="@/static/user/status1.png" class="img50" mode=""></image>
 					<view class="mt15">待付款</view>
@@ -36,7 +36,7 @@
 				</view>
 			</view>
 			<!--  -->
-			<view class="bg-white radius12 grid grid-cols-4 mt20 text-center text20 p30 radius-bottom4">
+			<view class="bg-white radius12 grid grid-cols-4 mt20 text-center text24 p30 radius-bottom4">
 				<view class="mb30" @click="handleTo('/pages/childPages/myCard/index')">
 					<image src="@/static/user/icon1.png" class="img50" mode=""></image>
 					<view class="mt15">我的卡包</view>
@@ -71,20 +71,20 @@
 				</view>
 			</view>
 			<!--  -->
-			<view class="mt30">
-				<view @click="handleTo('/pages/childPages/giftCardOpen/index')" class="card mb20 px30 py14 flex justify-between text24">
+			<view class="mt30 text26">
+				<view @click="handleTo('/pages/childPages/giftCardOpen/index')" class="card mb20 px30 py14 items-center flex justify-between ">
 					<view class="">礼品卡启用</view>
 					<uni-icons type="right" size="20" color="#FA6C2F"></uni-icons>
 				</view>
-				<view @click="handleTo('/pages/childPages/verificationRecord/index')" class="card mb20 px30 py14 flex justify-between text24">
+				<view @click="handleTo('/pages/childPages/verificationRecord/index')" class="card mb20 px30 py14 items-center flex justify-between ">
 					<view class="">爱心核销</view>
 					<uni-icons type="right" size="20" color="#FA6C2F"></uni-icons>
 				</view>
-				<view @click="handleTo('/pages/childPages/verificationRecordTwo/index')" class="card mb20 px30 py14 flex justify-between text24">
+				<view @click="handleTo('/pages/childPages/verificationRecordTwo/index')" class="card mb20 px30 py14 items-center flex justify-between ">
 					<view class="">超市/驿站核销</view>
 					<uni-icons type="right" size="20" color="#FA6C2F"></uni-icons>
 				</view>
-				<view @click="handleTo('/pages/childPages/feedback/index')" class="card mb20 px30 py14 flex justify-between text24">
+				<view @click="handleTo('/pages/childPages/feedback/index')" class="card mb20 px30 py14 items-center flex justify-between ">
 					<view class="">意见反馈</view>
 					<uni-icons type="right" size="20" color="#FA6C2F"></uni-icons>
 				</view>

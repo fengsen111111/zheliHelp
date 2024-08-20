@@ -3,7 +3,7 @@
 		<view class="card text-center grid grid-cols-4">
 			<view class="text-center" v-for="item in dataList" :key="item.id">
 				<image :src="require('@/static/home/'+item.icon)" mode="" class="imgsIcon"></image>
-				<view class="text20 col666666 line20 mb10">{{item.text}}</view>
+				<view class="text24 col666666 line20 mb10">{{item.text}}</view>
 			</view>
 		</view>
 	</view>

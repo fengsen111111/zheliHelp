@@ -4,7 +4,7 @@
 		  <uni-nav-bar :border="false" :fixed="true" background-color="#ffffff" status-bar left-icon="left" title="我的团队" color="#000000" @clickLeft="back" />
 		</view>
 		<view class="p30 bgF4F6F5">
-			<view class="headerUser flex items-center justify-between" style="background-image: url('../../../static/user/bgTwo.png');">
+			<view class="headerUser flex items-center justify-between" style="background-image: url('https://img.picui.cn/free/2024/08/20/66c45f90d0782.png');">
 				<view class="flex items-center">
 					<image src="@/static/user/user.png" class="img88" mode=""></image>
 					<view class="ml20 col-white">

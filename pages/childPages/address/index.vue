@@ -25,8 +25,8 @@
 				</view>
 				<view class="bg999999 h1 w-full"></view>
 				<view class="p20 text24 flex items-center">
-					<uni-icons type="circle" color="#666666" size="20"></uni-icons>
-					<view class="col333333 ml20">默认收货地址588号</view>
+					<uni-icons type="circle" color="#666666" size="18"></uni-icons>
+					<view class="col333333 ml10">默认收货地址588号</view>
 				</view>
 			</view>
 		</view>

@@ -9,7 +9,7 @@
 					<!-- <uni-icons type="upload" size="26" class="ml20" color="#FA6C2F"></uni-icons> -->
 					<image src="@/static/home/send.png" class="ml20 w30 h30" mode=""></image>
 				</view>
-				<view class="flex text20 ">
+				<view class="flex text20 mt10">
 					<view class="col666666">已购数量</view>
 					<view class="ml10 col666666">66666</view>
 					<view class="colFF0000 ml10">剩余数量</view>
@@ -19,7 +19,7 @@
 					<view class="col666666">预计配送时间</view>
 					<view class="ml10 col666666">6月26日</view>
 				</view>
-				<view class="flex text20 mt20">
+				<view class="flex text20 mt10">
 					<view class="col666666">市场价</view>
 					<view class="ml10 col666666">￥8888</view>
 				</view>
@@ -27,7 +27,7 @@
 					<view class="col-black font-bold">团购价</view>
 					<view class="ml10 colFF0000 font-bold">￥6666</view>
 					<view class="w50"></view>
-					<view class="bgF4F6F5 text28 items-center flex ml30">
+					<view class="bgF4F6F5 radius50 text28 items-center flex ml30">
 						<image src="@/static/shopping/dowm.png" class="img50" mode=""></image>
 						<view class="px8 py5">
 							9999

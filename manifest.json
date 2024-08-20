@@ -52,7 +52,10 @@
         /* 小程序特有相关 */
         "appid" : "",
         "setting" : {
-            "urlCheck" : false
+            "urlCheck" : false,
+            "postcss" : false,
+            "minified" : false,
+            "es6" : false
         },
         "usingComponents" : true
     },

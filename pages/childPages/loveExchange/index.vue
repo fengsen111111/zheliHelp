@@ -20,7 +20,7 @@
 					<view class="flex items-center">
 						<view class="text20">爱心等级</view>
 						<view class="text20 ml20">Level</view>
-						<view class="text32">1</view>
+						<view class="text32 uni-ml-2">1</view>
 						<view class="ml40">
 							<image src="@/static/user/QRcode3.png" class="w50 h50 mt5" mode=""></image>
 						</view>
@@ -85,7 +85,7 @@
 	.bgCard1 {
 		background-image: url('@/static/user/bg.png');
 		background-size: 100% 100%;
-		height: 128rpx;
+		/* height: 128rpx; */
 		width: 100%;
 	}
 </style>

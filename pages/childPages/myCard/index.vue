@@ -5,7 +5,7 @@
 				title="我的卡包" color="#000000" @clickLeft="back" />
 		</view>
 		<view class="p30">
-			<view class="bgCard1 colDCC896 " style="background-image: url('../../../static/user/card1.png');">
+			<view class="bgCard1 colDCC896 " style="background-image: url('https://img.picui.cn/free/2024/08/20/66c45eb16fa20.png');">
 				<view class="flex items-center justify-between p30">
 					<view class="flex items-center">
 						<image src="@/static/home/pay2.png" class="w62 h50" mode=""></image>
@@ -18,7 +18,7 @@
 		    		</view>
 				</view>
 				<view class=" px30 pt10 pb30 col999999 text20">
-					<view class="">说明</view>
+					<view class="mt15">说明</view>
 					<view class="">会员管理制度应包括发行人及会员的权利和义务、会员卡的管理方 式、会员参与管理的组织形式、会员卡资金管理、会籍的转让和继 承、年费缴纳等。保护了会员的权益，与消费者之间的良好关系。</view>
 					<view class="mt20 float-right items-center flex colDCC896" @click="handleDetails">
 						<text>详情</text>
@@ -28,7 +28,7 @@
 				</view>
 			</view>
 			<!-- 2 -->
-			<view class="bgCard1 mt40" style="background-image: url('../../../static/user/card2.png');">
+			<view class="bgCard1 mt40" style="background-image: url('https://img.picui.cn/free/2024/08/20/66c45eb1da9c2.png');">
 				<view class="flex items-center justify-between p30">
 					<view class="flex items-center">
 						<image src="@/static/home/pay3.png" class="w50 h50" mode=""></image>
@@ -41,7 +41,7 @@
 					</view>
 				</view>
 				<view class=" px30 pt10 pb30 col999999 text20 ">
-					<view class="">说明</view>
+					<view class="mt15">说明</view>
 					<view class="">会员管理制度应包括发行人及会员的权利和义务、会员卡的管理方 式、会员参与管理的组织形式、会员卡资金管理、会籍的转让和继 承、年费缴纳等。保护了会员的权益，与消费者之间的良好关系。</view>
 					<view class="mt20 col36A9FC items-center float-right flex" @click="handleDetails"> 
 						<text>详情</text>
@@ -51,7 +51,7 @@
 				</view>
 			</view>
 			<!-- 3 -->
-			<view class="bgCard1 mt40" style="background-image: url('../../../static/user/card3.png');">
+			<view class="bgCard1 mt40" style="background-image: url('https://img.picui.cn/free/2024/08/20/66c45eb22588f.png');">
 				<view class="flex items-center justify-between p30">
 					<view class="flex items-center">
 						<view class="w50 h50"><image src="@/static/home/pay42.png" class="w50 h50" mode=""></image></view>
@@ -64,7 +64,7 @@
 					</view>
 				</view>
 				<view class=" px30 pt10 pb30 col666666 text20 ">
-					<view class="">说明</view>
+					<view class="mt15">说明</view>
 					<view class="">会员管理制度应包括发行人及会员的权利和义务、会员卡的管理方 式、会员参与管理的组织形式、会员卡资金管理、会籍的转让和继 承、年费缴纳等。保护了会员的权益，与消费者之间的良好关系。</view>
 					<view class="mt20 col-white items-center float-right flex" @click="handleDetails">
 						<text>详情</text>

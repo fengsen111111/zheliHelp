@@ -47,11 +47,11 @@
 						<view class="col666666 text20">运费</view>
 						<view class="colFF0000 text20 ml10">+￥66</view>
 						<view class="font-bold colFF0000 text34 ml40">￥100</view>
-						<view v-if="checkIndex==1" class="col-white px20 py6 text-center bgFA6C2F ml40 radius50">去支付</view>
+						<view v-if="checkIndex==1" class="col-white px30 py10 text-center bgFA6C2F ml40 text28 radius50">去支付</view>
 						<!-- 待收货 -->
-						<view v-if="checkIndex==3" class="col-white px20 py6 text-center bg36A9FC ml40 radius50">确认收货</view>
+						<view v-if="checkIndex==3" class="col-white px30 py10 text-center bg36A9FC ml40 text28 radius50">确认收货</view>
 						<!-- 售后 -->
-						<view v-if="checkIndex==4" class="colFA6C2F px20 py6 text-center borderFA6C2F ml40 radius50" @click="handleVisable">申请售后</view>
+						<view v-if="checkIndex==4" class="colFA6C2F px30 py10 text-center borderFA6C2F ml40 text28 radius50" @click="handleVisable">申请售后</view>
 					</view>
 				</view>
 			</view>

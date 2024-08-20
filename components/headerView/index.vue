@@ -1,5 +1,5 @@
 <template>
-	<view class="headerBg" style="background-image: url('../../static/home/headerBg.png');">
+	<view class="headerBg" style="background-image: url('https://img.picui.cn/free/2024/08/20/66c45ede5a800.png');">
 		<!-- 自定义导航栏 -->
 			<view class="navBarBox">
 				<!-- 状态栏占位 -->
@@ -11,7 +11,7 @@
 						<image src="@/static/home/hraderText.png" class="imgText" mode=""></image>
 					</view>
 					<view class="bg-white flex col999999 items-cneter p20 mt36 radius50">
-						<uni-icons type="search" size="24" color="#999999"></uni-icons>
+						<uni-icons type="search" size="20" color="#999999"></uni-icons>
 						<view>输入关键词搜索商品</view>
 					</view>
 				</view>
@@ -45,7 +45,8 @@
 	.headerBg{
 		background-size: 100% 100%;
 		width: 100%;
-		height: 280rpx
+		padding-bottom: 40rpx;
+		/* height: 280rpx */
 	}
 	navBarBox {}
 	

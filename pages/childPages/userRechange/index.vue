@@ -27,16 +27,16 @@
 		<view class="py20 px30 mt20 bg-white">
 			<view class="text30 font-bold">充值金额</view>
 			<view class="flex justify-between col333333 mt20">
-				<view @click="handleView(1)" :class="viewIndex==1?'text24 colFA6C2F borderFA6C2F':''" class="py30 px20 col999999 bgF4F6F5 radius12 font-bold">
+				<view @click="handleView(1)" :class="viewIndex==1?' colFA6C2F borderFA6C2F':''" class="py14 px30 col999999 bgF4F6F5 radius12 ">
 					100元
 				</view>
-				<view @click="handleView(2)" :class="viewIndex==2?'text24 colFA6C2F borderFA6C2F':''" class="py30 px20 col999999 bgF4F6F5 radius12 font-bold">
+				<view @click="handleView(2)" :class="viewIndex==2?' colFA6C2F borderFA6C2F':''" class="py14 px30 col999999 bgF4F6F5 radius12 ">
 					200元
 				</view>
-				<view @click="handleView(3)" :class="viewIndex==3?'text24 colFA6C2F borderFA6C2F':''" class="py30 px20 col999999 bgF4F6F5 radius12 font-bold">
+				<view @click="handleView(3)" :class="viewIndex==3?' colFA6C2F borderFA6C2F':''" class="py14 px30 col999999 bgF4F6F5 radius12 ">
 					300元
 				</view>
-				<view @click="handleView(4)" :class="viewIndex==4?'text24 colFA6C2F borderFA6C2F':''" class="py30 px20 col999999 bgF4F6F5 radius12 font-bold" >
+				<view @click="handleView(4)" :class="viewIndex==4?' colFA6C2F borderFA6C2F':''" class="py14 px30 col999999 bgF4F6F5 radius12 " >
 				    其他数量
 				</view>
 			</view>

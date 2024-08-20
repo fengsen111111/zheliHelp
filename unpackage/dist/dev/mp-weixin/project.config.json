@@ -6,9 +6,9 @@
   },
   "setting": {
     "urlCheck": false,
-    "es6": false,
-    "postcss": false,
-    "minified": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
     "newFeature": true,
     "bigPackageSizeSupport": true,
     "babelSetting": {
@@ -19,7 +19,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "3.5.3",
-  "appid": "touristappid",
+  "appid": "wxa21f9de5cfa486d0",
   "projectname": "浙里助",
   "condition": {},
   "editorSetting": {
